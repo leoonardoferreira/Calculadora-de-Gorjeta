@@ -80,7 +80,7 @@ fun AppCalculadoraDeGorjeta() {
                     imeAction = ImeAction.Done
                 ),
                 keyboardActions = KeyboardActions(
-                    onDone = { focusManager.clearFocus() }
+                    onDone = { focusManager }
                 )
             )
 
